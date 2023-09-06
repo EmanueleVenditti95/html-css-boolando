@@ -53,6 +53,7 @@ main .row{
 
 .col-4 img{
     max-width: 100%;
+    
 }
 
 .list-pic{
@@ -90,6 +91,10 @@ main .row{
     font-size: 20px;
 }
 
+.wishlist-badge:hover{
+    color: red;
+}
+
 .brand{
     color: grey;
     font-size: small;
@@ -108,4 +113,22 @@ main .row{
     color: grey;
     font-size: small;
     text-decoration: line-through;
+}
+
+.figure:hover .img-hover{
+    opacity: 1;
+}
+
+.figure .img-hover{
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    opacity: 0;   
+}
+
+.figure{
+    position: relative;
+    max-width: 100%;
 }
