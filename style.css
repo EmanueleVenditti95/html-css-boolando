@@ -3,11 +3,11 @@
     padding: 0;
     box-sizing: border-box;
     text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
 }
 
 ol,ul,li{
     list-style: none;
-    display: inline;
 }
 
 .container{
@@ -21,6 +21,11 @@ ol,ul,li{
 }
 
 /* nav section */
+header li{
+    display: inline;
+    color: white;
+}
+
 header.container{
     background-color: rgb(228, 103, 57);
 }
@@ -85,3 +90,22 @@ main .row{
     font-size: 20px;
 }
 
+.brand{
+    color: grey;
+    font-size: small;
+}
+
+.item{
+    font-weight: 800;
+}
+
+.price{
+    font-size: small;
+    color: red;
+}
+
+.old-price{
+    color: grey;
+    font-size: small;
+    text-decoration: line-through;
+}
