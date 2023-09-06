@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+ol,ul,li{
+    list-style: none;
+    display: inline;
+}
+
+.container{
+    width: 1000px;
+    margin: 0 auto;
+}
+
+/* nav section */
+header.container{
+    background-color: rgb(228, 103, 57);
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logo{
+    width:100px;
+    padding: 10px 0;
+}
+/* nav section */
+
