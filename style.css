@@ -50,3 +50,29 @@ main .row{
     max-width: 100%;
 }
 
+.list-pic{
+    position: relative;
+}
+
+.square{
+    line-height: 15px;
+    color: white;
+    font-size: 8px;
+    padding: 0 7px;
+    position: absolute;
+    bottom: 30px;
+}
+
+.red-square{
+    background-color: red;    
+}
+
+.green-square{
+    background-color: green;
+    left: 35px;
+}
+
+.last-green-square{
+    background-color: green; 
+}
+
