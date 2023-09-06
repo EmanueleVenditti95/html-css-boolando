@@ -23,16 +23,28 @@ ol,ul,li{
 /* nav section */
 header li{
     display: inline;
-    color: white;
 }
 
-header.container{
-    background-color: rgb(228, 103, 57);
+.white-text{
+    color: white;
+    font-size: 12px;
+}
+
+.viewport-container{
+    background-color: rgb(221, 109, 68);
+    width: 100vw;
+    position: sticky;
+    z-index: 999;
+    top: 0;
 }
 
 header .row{
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
+}
+
+main .row{
+    margin-top: 30px;
 }
 
 .logo{
@@ -48,7 +60,7 @@ main .row{
 
 .col-4{
     flex-basis: calc(100% / 3);
-    padding: 50px 10px;
+    padding: 20px 10px;
 }
 
 .col-4 img{
@@ -132,3 +144,4 @@ main .row{
     position: relative;
     max-width: 100%;
 }
+/* main section */
