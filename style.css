@@ -145,3 +145,26 @@ main .row{
     max-width: 100%;
 }
 /* main section */
+
+/* footer */
+footer .row{
+    justify-content: space-between;
+}
+
+.footer-container {
+    background-color: black;
+    width: 100vw;
+    position: relative;
+    z-index: 999;
+    bottom: 0;
+}
+
+.footer-container .white-text{
+    font-size: 8px;
+    line-height: 15px;
+    padding: 15px 5px 15px 0;
+}
+
+.logo-link{
+    width: 25px;
+}
