@@ -11,8 +11,13 @@ ol,ul,li{
 }
 
 .container{
-    width: 1000px;
+    width: 800px;
     margin: 0 auto;
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
 }
 
 /* nav section */
@@ -20,9 +25,7 @@ header.container{
     background-color: rgb(228, 103, 57);
 }
 
-.row{
-    display: flex;
-    flex-direction: row;
+header .row{
     justify-content: space-around;
     align-items: center;
 }
@@ -32,4 +35,18 @@ header.container{
     padding: 10px 0;
 }
 /* nav section */
+
+/* main section */
+main .row{
+    flex-wrap: wrap;
+}
+
+.col-4{
+    flex-basis: calc(100% / 3);
+    padding: 50px 10px;
+}
+
+.col-4 img{
+    max-width: 100%;
+}
 
