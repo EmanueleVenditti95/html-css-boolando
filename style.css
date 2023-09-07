@@ -6,6 +6,10 @@
     font-family: 'Open Sans', sans-serif;
 }
 
+body{
+    position: relative;
+}
+
 ol,ul,li{
     list-style: none;
 }
@@ -31,7 +35,7 @@ header li{
 }
 
 .viewport-container{
-    background-color: rgb(221, 109, 68);
+    background-color: #FF6900;
     width: 100vw;
     position: sticky;
     z-index: 999;
@@ -76,18 +80,22 @@ main .row{
     line-height: 15px;
     color: white;
     font-size: 8px;
-    padding: 0 7px;
     position: absolute;
     bottom: 30px;
+    display: flex;
+    gap: 4px;
+    justify-content: center;
+    align-items: center;
 }
 
 .red-square{
-    background-color: red;    
+    background-color: red;
+    padding: 0 10px;    
 }
 
 .green-square{
     background-color: green;
-    left: 35px;
+    padding: 0 5px;
 }
 
 .last-green-square{
@@ -133,11 +141,9 @@ main .row{
 
 .figure .img-hover{
     position: absolute;
-    top: 0;
-    right: 0;
-    left: 0;
-    bottom: 0;
-    opacity: 0;   
+    inset: 0;
+    opacity: 0;
+    transition: opacity 0.5s;   
 }
 
 .figure{
@@ -154,8 +160,6 @@ footer .row{
 .footer-container {
     background-color: black;
     width: 100vw;
-    position: absolute;
-    bottom: 0;
 }
 
 .footer-container .white-text{
