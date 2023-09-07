@@ -36,7 +36,7 @@ header li{
 
 .viewport-container{
     background-color: #FF6900;
-    width: 100vw;
+    /* width: 100vw; NO, SI CREA LA BARRA DI SCORRIMENTO */
     position: sticky;
     z-index: 999;
     top: 0;
@@ -159,7 +159,6 @@ footer .row{
 
 .footer-container {
     background-color: black;
-    width: 100vw;
 }
 
 .footer-container .white-text{
